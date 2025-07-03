@@ -5,6 +5,7 @@ import Home from './Home'
 import Login from './Login'
 import Signup from './Signup';
 import ForgotPassword from './ForgotPassword';
+import Dashboard from './Dashboard';
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
         <Route path="/login" element={<Login />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
         <Route path="/forgotpassword" element={<ForgotPassword />}></Route>
+        <Route path="/dashboard" element={<Dashboard />}></Route>
         
       </Routes>
       

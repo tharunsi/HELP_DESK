@@ -1,0 +1,9 @@
+.footer {
+  background-color: #45d6c1;
+  text-align: center;
+  color: #000;
+  position: fixed;
+  bottom: 0;
+  left: 240px; /* same as sidebar width */
+  right: 0;
+}
