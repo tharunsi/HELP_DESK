@@ -1,5 +1,6 @@
 import React from 'react';
 import './Login.css';
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -8,10 +9,10 @@ const Login = () => {
         <h2 className="login-title">Helpdesk System</h2>
         <input type="text" placeholder="Username" className="login-input" />
         <input type="password" placeholder="Password" className="login-input" />
-        <button className="login-button">Sign In</button>
+       <NavLink to="/dashboard"> <button className="login-button">Sign In</button></NavLink>
         <div className="login-footer">
-          <span className="forgot-password">Forgot password</span>
-          <span className="signup">Sign Up</span>
+          <NavLink to="/forgotpassword"> <span className="forgot-password">Forgot password</span></NavLink>
+          <NavLink to="/signup"> <span className="signup">Sign Up</span></NavLink>
         </div>
       </div>
     </div>
