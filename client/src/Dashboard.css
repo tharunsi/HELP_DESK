@@ -38,12 +38,12 @@
 .stats-container {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .stat-box {
-  width: 300px;
+  width: 250px;
   height: 200px;
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);

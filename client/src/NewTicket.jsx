@@ -41,7 +41,9 @@ const NewTicket = () => {
             <button type="submit">Submit</button>
           </div>
         </form>
+       
       </main>
+       <br></br><br></br> <br></br><br></br> <br></br><br></br>
       <Footer />
     </div>
   );
