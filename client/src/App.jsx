@@ -6,6 +6,8 @@ import Login from './Login'
 import Signup from './Signup';
 import ForgotPassword from './ForgotPassword';
 import Dashboard from './Dashboard';
+import DashboardOperationTeam from './DashboardOperationTeam';
+import NewTicket from './NewTicket';
 
 function App() {
  
@@ -20,7 +22,8 @@ function App() {
         <Route path="/signup" element={<Signup />}></Route>
         <Route path="/forgotpassword" element={<ForgotPassword />}></Route>
         <Route path="/dashboard" element={<Dashboard />}></Route>
-        
+        <Route path="/dashboardop" element={<DashboardOperationTeam />}></Route>
+        <Route path="/newticket" element={<NewTicket />}></Route>
       </Routes>
       
       </BrowserRouter>

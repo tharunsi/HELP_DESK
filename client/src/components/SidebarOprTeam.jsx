@@ -1,19 +1,20 @@
 import React from 'react';
 import './Sidebar.css';
-import { FaTachometerAlt, FaPlus, FaTicketAlt } from 'react-icons/fa';
-import { NavLink, useNavigate } from "react-router-dom";
+import { FaTachometerAlt, FaPlus, FaTicketAlt,FaClipboardCheck, FaChartLine } from 'react-icons/fa';
 
-const Sidebar = () => {
+const SidebarOperationTeam = () => {
   return (
     <div className="sidebar">
       <h2 className="sidebar-title">Helpdesk</h2>
       <ul className="sidebar-menu">
         <li><FaTachometerAlt /> Dashboard</li>
-      <NavLink to='/newticket'> <li><FaPlus /> New Ticket</li></NavLink>
+        <li><FaClipboardCheck /> Ticket Approval</li>
+  
         <li><FaTicketAlt /> My Ticket</li>
+        <li><FaChartLine /> Performance</li>
       </ul>
     </div>
   );
 };
 
-export default Sidebar;
+export default SidebarOperationTeam;

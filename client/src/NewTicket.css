@@ -1,0 +1,116 @@
+.ticket-layout {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 60px 1fr 40px;
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: #45d6c1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.header .lang-select {
+  margin-right: 10px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #eee;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.main-content {
+  grid-area: main;
+  padding: 30px;
+  background-color: white;
+  overflow-y: auto;
+  width:84vw;
+}
+
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  padding: 20px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  background: #eee;
+}
+
+.full {
+  width: 100%;
+}
+
+.description {
+  position: relative;
+  width:100%;
+}
+
+.attach-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: teal;
+}
+
+.captcha-submit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #45d6c1;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #45d6c1;
+  text-align: center;
+  padding: 10px;
+}
