@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from './components/Header';
-
 import Footer from './components/Footer';
 import { FaDownload, FaUsers, FaEye } from 'react-icons/fa';
 import './MyTicket.css';
 import SidebarOperationTeam from './components/SidebarOprTeam';
 import { useState } from 'react';
+import HeaderOpr from './components/HeaderOpr';
 
 const tickets = [
   { id: '1234', subject: 'Login issue', category: 'Access issue', priority: 'High', date: '13/08/21', status: 'In Progress', description: 'User unable to log in with correct credentials.',
@@ -52,7 +51,7 @@ const MyTicketOpr = () => {
 
   return (
     <div className="myticket-container">
-      <Header />
+      <HeaderOpr />
       <SidebarOperationTeam />
 
       <main className="ticket-content">

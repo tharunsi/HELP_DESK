@@ -12,6 +12,7 @@ import UserProfile from './UserProfile';
 import EditAccount from './EditAccount';
 import TicketApproval from './TicketApproval';
 import MyTicketOpr from './MyTicketOpr';
+import OperatorProfile from './OperationProfile';
 
 function App() {
  
@@ -33,6 +34,7 @@ function App() {
         <Route path="/usereditprofile" element={<EditAccount />}></Route>
         <Route path="/ticketapproval" element={<TicketApproval />}></Route>
         <Route path="/newticket-opr" element={<MyTicketOpr />}></Route>
+        <Route path="/operatorprofile" element={<OperatorProfile />}></Route>
       </Routes>
       
       </BrowserRouter>
