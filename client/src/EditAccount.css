@@ -1,0 +1,78 @@
+.edit-account-container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 60px 1fr 40px;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.edit-account-main {
+  grid-area: main;
+  padding: 10px 60px;
+  background-color: #fff;
+}
+
+.edit-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.edit-box {
+  background-color: #dcdcdc;
+  padding: 30px 40px;
+  max-width: 1000px;
+  border-radius: 8px;
+}
+
+.edit-tab {
+  background-color: #3ed3c6;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 15px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-row label {
+  width: 180px;
+  font-weight: bold;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 10px 25px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.form-button {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.update-btn {
+  padding: 10px 20px;
+  background-color: #3ed3c6;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -8,6 +8,9 @@ import ForgotPassword from './ForgotPassword';
 import Dashboard from './Dashboard';
 import DashboardOperationTeam from './DashboardOperationTeam';
 import NewTicket from './NewTicket';
+import MyTicket from './MyTicket';
+import UserProfile from './UserProfile';
+import EditAccount from './EditAccount';
 
 function App() {
  
@@ -24,6 +27,9 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />}></Route>
         <Route path="/dashboardop" element={<DashboardOperationTeam />}></Route>
         <Route path="/newticket" element={<NewTicket />}></Route>
+        <Route path="/myticket" element={<MyTicket />}></Route>
+        <Route path="/userprofile" element={<UserProfile />}></Route>
+        <Route path="/usereditprofile" element={<EditAccount />}></Route>
       </Routes>
       
       </BrowserRouter>
