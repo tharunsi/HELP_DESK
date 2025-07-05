@@ -10,7 +10,7 @@ const Sidebar = () => {
       <ul className="sidebar-menu">
         <li><FaTachometerAlt /> Dashboard</li>
       <NavLink to='/newticket'> <li><FaPlus /> New Ticket</li></NavLink>
-        <li><FaTicketAlt /> My Ticket</li>
+        <NavLink to='/myticket'><li><FaTicketAlt /> My Ticket</li></NavLink>
       </ul>
     </div>
   );

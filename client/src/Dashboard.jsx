@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import './Dashboard.css'; 
 import Header from './components/Header';
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
   return (

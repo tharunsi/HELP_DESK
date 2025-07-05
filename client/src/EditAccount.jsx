@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import './EditAccount.css';
+import { NavLink, useNavigate } from "react-router-dom";
 
 const EditAccount = () => {
   return (
@@ -58,7 +59,7 @@ const EditAccount = () => {
   </div>
 
   <div className="form-button">
-    <button type="submit" className="update-btn">Update User</button>
+    <NavLink to='/userprofile'><button type="submit" className="update-btn">Update User</button></NavLink>
   </div>
 </form>
 

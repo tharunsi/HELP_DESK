@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { FaBell, FaUserCircle, FaCog } from 'react-icons/fa';
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -15,7 +16,7 @@ const Header = () => {
           <option>BN</option>
         </select>
         <FaBell className="header-icon" />
-        <FaUserCircle className="header-icon" />
+       <NavLink to='/userprofile'> <FaUserCircle className="header-icon" /></NavLink>
         <FaCog className="header-icon" />
       </div>
     </header>
