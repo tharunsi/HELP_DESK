@@ -9,7 +9,7 @@ const SidebarOperationTeam = () => {
       <h2 className="sidebar-title">Helpdesk</h2>
       <ul className="sidebar-menu">
         <li><FaTachometerAlt /> Dashboard</li>
-        <li><FaClipboardCheck /> Ticket Approval</li>
+        <NavLink to='ticketapproval'><li><FaClipboardCheck /> Ticket Approval</li></NavLink>
   
         <li><FaTicketAlt /> My Ticket</li>
         <li><FaChartLine /> Performance</li>
