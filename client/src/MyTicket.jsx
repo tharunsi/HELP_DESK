@@ -33,7 +33,7 @@ const ticketData = [
     priority: 'Medium',
     attachment: 'form-error.png'
   },
-  // Add other tickets similarly...
+  
 ];
 
 const MyTicket = () => {

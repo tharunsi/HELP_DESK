@@ -8,10 +8,10 @@ const SidebarOperationTeam = () => {
     <div className="sidebar">
       <h2 className="sidebar-title">Helpdesk</h2>
       <ul className="sidebar-menu">
-        <li><FaTachometerAlt /> Dashboard</li>
-        <NavLink to='ticketapproval'><li><FaClipboardCheck /> Ticket Approval</li></NavLink>
+        <NavLink to='/operation-dashboard'><li><FaTachometerAlt /> Dashboard</li></NavLink>
+        <NavLink to='/ticketapproval'><li><FaClipboardCheck /> Ticket Approval</li></NavLink>
   
-        <li><FaTicketAlt /> My Ticket</li>
+        <NavLink to='/newticket-opr'><li><FaTicketAlt /> My Ticket</li></NavLink>
         <li><FaChartLine /> Performance</li>
       </ul>
     </div>

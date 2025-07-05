@@ -1,0 +1,84 @@
+.ticket-content {
+  grid-area: main;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.ticket-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ticket-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.search-box, .entries-dropdown {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ticket-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ticket-table th, .ticket-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.green {
+     padding: 4px 8px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 13px;
+  background-color: #28a745;
+}
+
+.blue {
+     padding: 4px 8px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 13px;
+  background-color: #007bff;
+}
+
+.badge.black {
+     padding: 4px 8px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 13px;
+  background-color: #333;
+}
+
+.action-icons svg {
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pagination {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.pagination span {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination .active {
+  font-weight: bold;
+}

@@ -8,7 +8,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <h2 className="sidebar-title">Helpdesk</h2>
       <ul className="sidebar-menu">
-        <li><FaTachometerAlt /> Dashboard</li>
+        <NavLink to='/user-dashboard'><li><FaTachometerAlt /> Dashboard</li></NavLink>
       <NavLink to='/newticket'> <li><FaPlus /> New Ticket</li></NavLink>
         <NavLink to='/myticket'><li><FaTicketAlt /> My Ticket</li></NavLink>
       </ul>

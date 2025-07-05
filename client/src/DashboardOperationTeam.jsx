@@ -5,12 +5,13 @@ import './Dashboard.css';
 import Header from './components/Header';
 import { FaChartBar, FaHeadset, FaTools, FaStar } from 'react-icons/fa';
 import { NavLink, useNavigate } from "react-router-dom";
+import SidebarOperationTeam from './components/SidebarOprTeam';
 
 const DashboardOperationTeam = () => {
   return (
     <div className="dashboard-container">
       <Header />
-      <SidebarOprTeam />
+      <SidebarOperationTeam />
       <div className="dashboard-main">
         <h1 className="dashboard-title">Dashboard</h1>
 

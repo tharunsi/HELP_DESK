@@ -11,6 +11,7 @@ import MyTicket from './MyTicket';
 import UserProfile from './UserProfile';
 import EditAccount from './EditAccount';
 import TicketApproval from './TicketApproval';
+import MyTicketOpr from './MyTicketOpr';
 
 function App() {
  
@@ -31,6 +32,7 @@ function App() {
         <Route path="/userprofile" element={<UserProfile />}></Route>
         <Route path="/usereditprofile" element={<EditAccount />}></Route>
         <Route path="/ticketapproval" element={<TicketApproval />}></Route>
+        <Route path="/newticket-opr" element={<MyTicketOpr />}></Route>
       </Routes>
       
       </BrowserRouter>

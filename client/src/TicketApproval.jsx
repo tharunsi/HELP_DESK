@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import './TicketApproval.css';
 import { FaCheck, FaTimes } from 'react-icons/fa';
+import SidebarOperationTeam from './components/SidebarOprTeam';
 
 
 const tickets = [
@@ -18,7 +19,7 @@ const TicketApproval = () => {
   return (
     <div className="ticket-approval-container">
       <Header />
-      <Sidebar />
+      <SidebarOperationTeam />
       <main className="ticket-approval-content">
         <h2>Ticket Approval</h2>
 
